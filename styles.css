@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -18,12 +18,13 @@ body {
 .app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 40px;
+  grid-column-gap: 100px;
 }
 
 .navbar-container {
   display: flex;
   align-items: center;
-  padding: 40px;
 }
 
 .navbar-container > img {
@@ -41,13 +42,13 @@ body {
 }
 
 .showcase-container .showcase-text > h2:first-child {
-  font-size: 3.125rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #2a394f;
 }
 
 .showcase-container .showcase-text > h2:last-child {
-  font-size: 5.125rem;
+  font-size: 3.5rem;
   font-weight: 700;
   color: #2a394f;
 }
@@ -57,7 +58,44 @@ body {
   margin-bottom: 15px;
   font-weight: 500;
 }
-/* Ultilidades */
+
+/* Previsão por Hora */
+.hourly-forecast-container {
+  border-radius: 40px;
+  padding: 40px;
+  background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
+  box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hourly-forecast-container .hour-weather-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hourly-forecast-container .hour-weather-item > img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.hourly-forecast-container .hour-weather-item > p:first-child {
+  color: #fff;
+  opacity: 75%;
+  font-weight: 500;
+}
+
+.hourly-forecast-container .hour-weather-item > p:last-child {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Utilidades */
 .custom-input {
   border: none;
   border-radius: 15px;
