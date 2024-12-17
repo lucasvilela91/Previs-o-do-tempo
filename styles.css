@@ -30,6 +30,33 @@ body {
   margin-right: 20px;
 }
 
+/* Showcase */
+.showcase-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 60px;
+}
+
+.showcase-container .showcase-text > h2:first-child {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > h2:last-child {
+  font-size: 5.125rem;
+  font-weight: 700;
+  color: #2a394f;
+}
+
+.showcase-container .showcase-text > p {
+  color: #9aa0a8;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
 /* Ultilidades */
 .custom-input {
   border: none;
