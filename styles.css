@@ -18,7 +18,7 @@ body {
 .app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 40px;
+  padding: 10px;
   grid-column-gap: 100px;
 }
 
@@ -38,7 +38,7 @@ body {
   justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 
 .showcase-container .showcase-text > h2:first-child {
@@ -93,6 +93,52 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 2rem;
+}
+
+/* Detalhes */
+
+.weather-details-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  grid-column-gap: 15px;
+}
+
+.weather-details-container .weather-detail-item {
+  background-color: #fff;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.weather-details-container .weather-detail-item > p:first-child {
+  color: #8f8f8f;
+}
+
+.weather-details-container .weather-detail-item > div {
+  display: flex;
+  align-items: center;
+}
+
+.weather-details-container .weather-detail-item > div > p {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2a394f;
+  margin-left: 4px;
+}
+
+.weather-details-container .weather-detail-item > div > p > span {
+  font-size: 0.75rem;
+  margin-left: -5px;
+}
+
+.weather-details-container .weather-detail-item > div > img {
+  width: 35px;
+  height: 35px;
 }
 
 /* Utilidades */
