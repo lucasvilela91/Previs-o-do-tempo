@@ -1,6 +1,6 @@
 # Projeto Previsão do tempo
 
-Este é um projeto simples de previsão do tempo **mockado**, onde as informações meteorológicas são exibidas de forma fixa, sem integração com APIs externas ou uso de JavaScript. O foco principal foi a criação de uma interface amigável e a responsividade para dispositivos móveis utilizando **@media queries** no CSS.
+Este é um projeto de previsão do tempo **mockado**, onde as informações meteorológicas são exibidas de forma fixa, sem integração com APIs externas ou uso de JavaScript. O foco principal foi a criação de uma interface amigável e a responsividade para dispositivos móveis utilizando **@media queries** no CSS.
 
 
 ![image](https://github.com/user-attachments/assets/2a4e6685-699a-42b4-93ed-90f7ed4c441c)
