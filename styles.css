@@ -18,8 +18,9 @@ body {
 .app-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 40px;
-  grid-column-gap: 100px;
+  padding: 20px;
+  grid-column-gap: 100px; /* Ocupa 100% da altura da viewport */
+  height: 100vh;
 }
 
 .navbar-container {
@@ -36,19 +37,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 .showcase-container .showcase-text > h2:first-child {
-  font-size: 3.125rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #2a394f;
 }
 
 .showcase-container .showcase-text > h2:last-child {
-  font-size: 5.125rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #2a394f;
 }
@@ -92,12 +93,12 @@ body {
 .hourly-forecast-container .hour-weather-item > p:last-child {
   color: #fff;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 /* Detalhes */
 .weather-details-container {
-  margin-top: 40px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 220px);
   grid-column-gap: 15px;
@@ -106,7 +107,7 @@ body {
 .weather-details-container .weather-detail-item {
   background-color: #fff;
   border-radius: 40px;
-  padding: 30px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -124,7 +125,7 @@ body {
 }
 
 .weather-details-container .weather-detail-item > div > p {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #2a394f;
   margin-left: 4px;
